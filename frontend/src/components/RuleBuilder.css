@@ -1,0 +1,35 @@
+.rule-builder-panel {
+  padding: 20px;
+}
+
+.keyword-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.keyword-list {
+  list-style: none;
+  padding: 0;
+}
+
+.keyword-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.btn-remove {
+  background: none;
+  border: none;
+  color: var(--error);
+  cursor: pointer;
+}
+
+.form-section {
+  margin-bottom: 25px;
+}
